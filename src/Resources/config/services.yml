@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+    _instanceof:
+        Bugloos\ExportBundle\Contracts\ExporterInterface:
+            tags: [ 'bugloos_export_bundle.exporter' ]
+            public: true
+            lazy: true
+
+    Bugloos\ExportBundle\Services\Excel: ~
+    
+    Bugloos\ExportBundle\Contracts\ExporterInterface: '@Bugloos\ExportBundle\Services\Excel'
