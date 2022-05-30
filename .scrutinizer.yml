@@ -31,3 +31,14 @@ build:
             tests:
                 override:
                     - php-scrutinizer-run
+            environment:
+                php:
+                    version: 7.4
+                    pecl_extensions:
+                        - zip
+        tests:
+            environment:
+                php:
+                    version: 7.4
+                    pecl_extensions:
+                        - zip
