@@ -2,6 +2,8 @@
 Export Bundle
 </h2>
 
+NOTE: Documentation and automated tests are under construction
+
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bugloos/export-bundle/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/bugloos/export-bundle/?branch=main)
 [![Build Status](https://scrutinizer-ci.com/g/bugloos/export-bundle/badges/build.png?b=main)](https://scrutinizer-ci.com/g/bugloos/export-bundle/build-status/main)
 
